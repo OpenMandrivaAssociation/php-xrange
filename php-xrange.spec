@@ -4,7 +4,7 @@
 
 Summary:	Numeric iterator primitives
 Name:		php-%{modname}
-Version:	1.3
+Version:	1.3.1
 Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
