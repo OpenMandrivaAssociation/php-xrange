@@ -5,7 +5,7 @@
 Summary:	Numeric iterator primitives
 Name:		php-%{modname}
 Version:	1.3.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/xrange/
