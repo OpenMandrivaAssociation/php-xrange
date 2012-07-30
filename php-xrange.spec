@@ -4,13 +4,12 @@
 
 Summary:	Numeric iterator primitives
 Name:		php-%{modname}
-Version:	1.3.1
-Release:	%mkrel 14
+Version:	1.3.2
+Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/xrange/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-Patch0:		xrange-1.3.1-php54x.diff
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
 BuildRequires:	php-devel >= 3:5.2.0
@@ -27,8 +26,6 @@ alternative for all numeric iteration and looping.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
-
-%patch0 -p0
 
 # fix permissions
 find . -type f | xargs chmod 644
