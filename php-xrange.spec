@@ -79,3 +79,53 @@ rm -rf %{buildroot}
 %doc package*.xml tests CREDITS
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
+
+
+%changelog
+* Mon Jul 30 2012 Oden Eriksson <oeriksson@mandriva.com> 1.3.2-1mdv2012.0
++ Revision: 811430
+- 1.3.2
+
+* Sun May 20 2012 Oden Eriksson <oeriksson@mandriva.com> 1.3.1-14
++ Revision: 799734
+- fix build
+- rebuilt for php-5.3.2
+- rebuilt for php-5.3.2RC1
+- rebuilt against php-5.3.1
+- rebuild
+- rebuilt for php-5.3.0RC2
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+  + Raphaël Gertz <rapsys@mandriva.org>
+    - Rebuild
+
+* Sun Mar 01 2009 Oden Eriksson <oeriksson@mandriva.com> 1.3.1-6mdv2009.1
++ Revision: 346708
+- rebuilt for php-5.2.9
+
+* Tue Feb 17 2009 Oden Eriksson <oeriksson@mandriva.com> 1.3.1-5mdv2009.1
++ Revision: 341849
+- rebuilt against php-5.2.9RC2
+
+* Thu Jan 01 2009 Oden Eriksson <oeriksson@mandriva.com> 1.3.1-4mdv2009.1
++ Revision: 323144
+- rebuild
+
+* Fri Dec 05 2008 Oden Eriksson <oeriksson@mandriva.com> 1.3.1-3mdv2009.1
++ Revision: 310321
+- rebuilt against php-5.2.7
+
+* Fri Jul 18 2008 Oden Eriksson <oeriksson@mandriva.com> 1.3.1-2mdv2009.0
++ Revision: 238474
+- rebuild
+
+* Mon Mar 03 2008 Oden Eriksson <oeriksson@mandriva.com> 1.3.1-1mdv2008.1
++ Revision: 177874
+- 1.3.1
+
+* Wed Feb 27 2008 Oden Eriksson <oeriksson@mandriva.com> 1.3-1mdv2008.1
++ Revision: 175685
+- import php-xrange
+
