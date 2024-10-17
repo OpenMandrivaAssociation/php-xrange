@@ -8,7 +8,7 @@ Version:	1.3.2
 Release:	2
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/xrange/
+URL:		https://pecl.php.net/package/xrange/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
